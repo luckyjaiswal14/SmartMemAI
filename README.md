@@ -2,8 +2,6 @@
 
 A C-based static analysis prototype for optimizing memory by detecting unused and duplicate variables.
 
-## Summary
-
 SmartMemAI optimizes your C codebase by analyzing variable usage patterns locally across blocks. Featuring a hand-built lexer, parser, and block-scoped symbol table, it scans your C files tracking variables within `scope levels { ... }` alongside assignments, finding variables that were declared but never used in execution to calculate memory saving. 
 
 ## Features
